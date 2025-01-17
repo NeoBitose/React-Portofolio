@@ -7,10 +7,12 @@ import '../index.css'
 const Home = () => {
 
     return (
-        <>
-            <Navbar/>
-            <Footer/>
-        </>
+        <div className='vh-100 d-flex flex-column justify-content-center'>
+            <div>
+                <Navbar />
+                <Footer />
+            </div>
+        </div>
     )
 }
 
